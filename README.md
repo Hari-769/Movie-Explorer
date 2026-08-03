@@ -13,8 +13,8 @@ A responsive React application powered by the TMDB API that lets users discover 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="./screenshots/home.png.png" width="48%" />
-  <img src="./screenshots/details.png.png" width="48%" />
+  <img src="./screenshots/home.png" width="48%" />
+  <img src="./screenshots/details.png" width="48%" />
 </p>
 
 ---
