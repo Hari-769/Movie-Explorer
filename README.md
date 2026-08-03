@@ -1,92 +1,60 @@
 # 🎬 Movie Explorer
 
-A modern and responsive Movie Explorer web application built with **React.js** and powered by the **TMDB API**. Browse popular movies, search by title, filter by genre or year, watch trailers, and save your favorite movies.
+A responsive React application powered by the TMDB API that lets users discover movies, search by title, filter by genre/year/popularity, view detailed movie information, and save favorite movies.
+
+---
+
+## 🌐 Live Demo
+
+🔗 https://movie-explorer-one-nu.vercel.app/
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./screenshots/home.png" width="48%" />
+  <img src="./screenshots/details.png" width="48%" />
+</p>
 
 ---
 
 ## ✨ Features
 
 - 🔍 Search movies by title
-- 🎭 Filter movies by genre
-- 📅 Filter movies by release year
-- 📈 Sort movies by:
+- 🎭 Filter by genre
+- 📅 Filter by release year
+- 📊 Sort by:
   - Popular
   - Top Rated
   - Now Playing
   - Upcoming
   - Trending Today
   - Trending This Week
-- ❤️ Add or remove favorite movies
-- 🎬 View detailed movie information
-- ▶️ Watch official YouTube trailers
-- 💰 View budget and revenue
-- 🏢 Production company details
-- 🌙 Dark Mode / ☀️ Light Mode
-- 📱 Fully responsive design
+- ❤️ Add/Remove favorite movies
+- 🌙 Dark / Light Mode
+- 📱 Fully Responsive Design
+- 🎬 Detailed movie information popup
 - ⏳ Loading spinner while fetching data
-
-
-## 🛠️ Built With
-
-- React.js
-- Vite
-- JavaScript (ES6+)
-- CSS3
-- Font Awesome
-- TMDB API
-
-
-
-## 📸 Screenshots
-
-> Add screenshots here after deployment.
-
-Example:
-
-```
-Home Page
-Movie Details
-Dark Mode
-Light Mode
-```
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Tech Stack
 
-### Clone the repository
+### Frontend
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
 
-```bash
-git clone https://github.com/Hari-769/Movie-Explorer.git
-```
+### API
+- TMDB (The Movie Database) API
 
-### Navigate to the project
+### Libraries
+- Font Awesome
 
-```bash
-cd Movie-Explorer
-```
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Create a `.env` file
-
-```env
-VITE_API_KEY=YOUR_TMDB_API_KEY
-```
-
-Get your free API key from:
-
-https://www.themoviedb.org/settings/api
-
-### Start the development server
-
-```bash
-npm run dev
-```
+### Deployment
+- Vercel
 
 ---
 
@@ -100,26 +68,57 @@ src/
 │── Moviecards.jsx
 │── Moviedetails.jsx
 │── App.css
-│── main.jsx
 ```
 
 ---
 
-## 🎯 Future Improvements
+## 🚀 Getting Started
 
-- Pagination
-- Infinite scrolling
-- Actor & Cast information
-- Movie recommendations
-- User authentication
-- Watchlist feature
+Clone the repository
 
+```bash
+git clone https://github.com/Hari-769/Movie-Explorer.git
+```
 
-## 🌐 API Used
+Go into the project
 
-The Movie Database (TMDB)
+```bash
+cd Movie-Explorer
+```
 
-https://developer.themoviedb.org/
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env` file
+
+```env
+VITE_API_KEY=YOUR_TMDB_API_KEY
+```
+
+Run the project
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+The application requires a TMDB API key.
+
+```
+VITE_API_KEY=YOUR_API_KEY
+```
+
+---
+
+## 💻 GitHub Repository
+
+https://github.com/Hari-769/Movie-Explorer
 
 ---
 
@@ -127,11 +126,16 @@ https://developer.themoviedb.org/
 
 **Hari K**
 
-GitHub:
-https://github.com/Hari-769
+GitHub: https://github.com/Hari-769
 
 ---
 
-## ⭐ Support
+## ⭐ Future Improvements
 
-If you enjoyed this project, consider giving it a ⭐ on GitHub!
+- Persist favorites using Local Storage
+- Movie trailers
+- Cast & Crew section
+- Similar movie recommendations
+- Infinite scrolling / Pagination
+- Debounced search
+- Better animations
