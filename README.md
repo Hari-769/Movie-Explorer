@@ -132,8 +132,6 @@ GitHub: https://github.com/Hari-769
 
 ## ⭐ Future Improvements
 
-- Persist favorites using Local Storage
-- Movie trailers
 - Cast & Crew section
 - Similar movie recommendations
 - Infinite scrolling / Pagination
