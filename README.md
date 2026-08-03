@@ -1,16 +1,137 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive Movie Explorer web application built with **React.js** and powered by the **TMDB API**. Browse popular movies, search by title, filter by genre or year, watch trailers, and save your favorite movies.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🔍 Search movies by title
+- 🎭 Filter movies by genre
+- 📅 Filter movies by release year
+- 📈 Sort movies by:
+  - Popular
+  - Top Rated
+  - Now Playing
+  - Upcoming
+  - Trending Today
+  - Trending This Week
+- ❤️ Add or remove favorite movies
+- 🎬 View detailed movie information
+- ▶️ Watch official YouTube trailers
+- 💰 View budget and revenue
+- 🏢 Production company details
+- 🌙 Dark Mode / ☀️ Light Mode
+- 📱 Fully responsive design
+- ⏳ Loading spinner while fetching data
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the Oxlint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React.js
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- Font Awesome
+- TMDB API
+
+
+
+## 📸 Screenshots
+
+> Add screenshots here after deployment.
+
+Example:
+
+```
+Home Page
+Movie Details
+Dark Mode
+Light Mode
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Hari-769/Movie-Explorer.git
+```
+
+### Navigate to the project
+
+```bash
+cd Movie-Explorer
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Create a `.env` file
+
+```env
+VITE_API_KEY=YOUR_TMDB_API_KEY
+```
+
+Get your free API key from:
+
+https://www.themoviedb.org/settings/api
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── App.jsx
+│── Header.jsx
+│── Navbar.jsx
+│── Moviecards.jsx
+│── Moviedetails.jsx
+│── App.css
+│── main.jsx
+```
+
+---
+
+## 🎯 Future Improvements
+
+- Pagination
+- Infinite scrolling
+- Actor & Cast information
+- Movie recommendations
+- User authentication
+- Watchlist feature
+
+
+## 🌐 API Used
+
+The Movie Database (TMDB)
+
+https://developer.themoviedb.org/
+
+---
+
+## 👨‍💻 Author
+
+**Hari K**
+
+GitHub:
+https://github.com/Hari-769
+
+---
+
+## ⭐ Support
+
+If you enjoyed this project, consider giving it a ⭐ on GitHub!
