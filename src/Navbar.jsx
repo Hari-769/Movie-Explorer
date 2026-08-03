@@ -119,7 +119,7 @@ const handlegenre = (genre) =>{
             <FontAwesomeIcon icon={faMagnifyingGlass} className="search-icon"/>
             </div>
         <div className="gener">
-        <button onClick={toggleGenres} className="genrebutton" >All Generes</button>
+        <button onClick={toggleGenres} className="genrebutton" >{selectedgenre || "All Genres"}</button>
         {showGenres &&(
         <div className="genre-content">
             {genres.map((genre)=>{
@@ -131,7 +131,7 @@ const handlegenre = (genre) =>{
         )}
         </div>
         <div className="popularity">
-        <button onClick={togglePopularity} className="popularitybutton">Sort by: Popularity</button>
+        <button onClick={togglePopularity} className="popularitybutton">Sort by:{selectpopularity || "Popular"}</button>
         {showPopularity &&(
         <div className="popularity-content">
             {popularity.map((popularity)=>{
@@ -143,7 +143,7 @@ const handlegenre = (genre) =>{
         )}
         </div>
         <div className="year">
-        <button onClick={toggleYears} className="yearbutton">Year</button>
+        <button onClick={toggleYears} className="yearbutton">{selectyear || "All Years"}</button>
         {showYears &&(
         <div className="dropdown-content">
             {years.map((year) => (
